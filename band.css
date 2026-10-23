@@ -1,0 +1,119 @@
+.navbar-color {
+    background-color: rgba(93, 15, 15, 0.98);
+}
+
+
+body {
+    background: linear-gradient(
+        to right,
+        rgba(151, 170, 135),
+        rgb(66, 75, 58)
+    );
+    min-height: 40em;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.Searchbar_Color,
+.Searchbutton,
+.send-button{
+    border-width: 3px;
+    border-color: rgb(32, 93, 32);
+    background-color: rgb(87, 99, 77);
+}
+
+
+.Searchbutton:hover,
+.send-button:hover{
+    background-color: rgb(32, 93, 32);
+}
+
+.cancel-button {
+    background-color:  rgb(57, 9, 9);
+    border-color:  rgb(31, 5, 5);
+    color: antiquewhite;
+}
+
+.cancel-button:hover{
+    background-color:  rgb(31, 5, 5);
+}
+
+.checkbox{
+   background-color: rgb(123, 140, 110); 
+}
+
+h4 {
+    text-align: center;
+}
+
+.Biograghy {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Box {
+    background-color: rgb(93, 15, 15);
+    border-radius: 20px;
+    color: antiquewhite;
+    box-shadow: 15px 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Box_Corner {
+    background-color: rgb(93, 15, 15);
+    border-radius: 0 0 5px 5px;
+    color: antiquewhite;
+}
+
+.Show_more {
+    background-color: rgb(123, 140, 110);
+    border-color: rgb(123, 140, 110);
+}
+
+.Album_News{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Footer{
+  background-color: rgb(93, 15, 15);
+    color: antiquewhite;  
+}
+
+.Footer img:hover {
+    transition: 0.3s;
+    transform: scale(1.15);
+}
+
+.contact-card{
+   background-color: rgba(93, 15, 15, 0.88);
+    border-radius: 20px;
+    color: antiquewhite;
+    box-shadow: 15px 7px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.table-layout{
+    --bs-table-bg:rgba(93, 15, 15, 0.068);
+    --bs-table-border-color: rgb(93, 15, 15);
+}
+
+.table-height{
+    height:100px;
+    width:100px;
+    vertical-align:top;
+    text-align: left;
+}
+
+.events{
+    text-align: center;
+    color: antiquewhite;
+}
+
+.table-active{
+    --bs-table-active-bg:rgba(93, 15, 15, 0.77);
+}
+
